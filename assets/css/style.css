@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,8 +21,8 @@ li a {
     color: #777777;
     text-align: center;
     padding: 14px 16px;
+    font-size: 30px;
     text-decoration: none;
-    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -34,6 +33,17 @@ li a {
     background-color:#4aaaa5;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    width: 960px;
+    margin: auto;
+    background: white;
+    
+}
+
+.background {
+    background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
 }
 
 .content {
@@ -54,25 +64,12 @@ img{
     padding-right: 20px;
 }
 
-.header {
-    width: 960px;
-    margin: auto;
-    background: white;
-    padding: 10px;
-}
-
-
 h1 {
     width: 960px;
     margin: auto;
     color: #4aaaa5;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-
-.background {
-    background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
 }
 
 .footer {
